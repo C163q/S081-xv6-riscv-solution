@@ -1,0 +1,7 @@
+1. a0-a7, a2
+2. li a1,12
+3. 0x63e
+4. 0x40
+5. He110 World, 0x726c6400, No
+6. Undefined behavior. The caller doesn't pass any value to the a2 register, but the callee tries to
+   get one in that register which will get an unexpected value.
